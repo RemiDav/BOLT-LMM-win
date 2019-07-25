@@ -24,7 +24,7 @@
 
 namespace StringUtils {
 
-  const std::string RANGE_DELIMS = "{:}"; // must have 3 chars
+  const std::string RANGE_DELIMS = "{@}"; // must have 3 chars
 
   int stoi(const std::string &s);
   double stod(const std::string &s);
